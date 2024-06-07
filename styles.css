@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #F5BD9A;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.candle {
+    width: 30%;
+    height: 70%;
+    background-color: #8D9DAC;
+    border: 17px solid white;
+    position: relative;
+}
+
+.wick {
+    width: 4px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.flame {
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    top: -60px; /* Adjusted to align with the wick */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer-flame {
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    border-radius: 50% 50% 0 0;
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.6);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.inner-flame {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    border-radius: 50% 50% 0 0;
+}
